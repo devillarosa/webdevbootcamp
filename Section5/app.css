@@ -1,11 +1,19 @@
 h1 {
-   color: red; 
+    /* hex style */ 
+    color: #DEADBE; 
+}
+
+h2{
+    /* rgbia style */
+    color: rgba(100, 0, 100, 45);
 }
 
 li{
-    color: green;
+    /* rgb style */
+    color: rgb(100, 0, 100);
 }
 
 h4{
-    color: blue;
+    /* word wise */
+    color: darkblue;
 }
