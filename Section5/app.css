@@ -1,6 +1,12 @@
 h1 {
     /* hex style */ 
-    color: #DEADBE; 
+    color: #DEADBE;
+    /*
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+    */
+    border: 5px solid purple;
 }
 
 h2{
@@ -16,4 +22,18 @@ li{
 h4{
     /* word wise */
     color: darkblue;
+}
+
+body{
+    background: url(http://cpsresources.com/wp-content/uploads/2014/12/9436-Matte-Woodgrain-Matte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background: blue;
+}
+
+p{
+    background: green;
 }
