@@ -1,6 +1,40 @@
+/* id */
 #id_checkbox1{
     border: 2px solid red;
 }
+
+/* class */
 .class_highlight{
     text-decoration: line-through;
 }
+
+/* Star - Select everything on the page*/
+*{ 
+    border: 1px solid lightgrey;
+}
+
+/* Descendeant Selector - elements nested in something*/
+/* every li inside a ul */
+ul li {
+    color: green;
+}
+
+/* Adjacent Selector */
+/* Select element after, and on the same level */
+
+h1 + ul{
+    color: blue;
+}
+
+/* Attribute Selector */
+/* Select all attributes with href="http://www.google.com"*/
+a[href="http://www.google.com"]{
+    background: green;
+}
+
+/* nth of type */
+/* Selects the 3rd of all li*/
+li:nth-of-type(3){
+    background: red;
+}
+
