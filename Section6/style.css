@@ -36,3 +36,11 @@ p {
     text-decoration: underline;
 }
 
+/* Google Fonts */
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-family: 'Kumar One', cursive;
+}
