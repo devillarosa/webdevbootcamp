@@ -1,0 +1,38 @@
+/*font-family*/
+p {
+    font-family: Arial;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+/*font-size*/
+h1 {
+    font-size: 50px;
+}
+
+span {
+    font-size: 2.0em; /* Size is double the size relative to its parent */
+}
+
+/*font-weight*/
+p {
+    font-weight: bold; /* Can range between 100 - 800, 100 , 200 ... 800 */
+}
+
+/*line-weight (line spacing)*/
+p {
+    line-height: 2; /* Multiplies the current line height */
+}
+
+/*text-align*/
+h1 {
+    text-align: center;
+}
+
+/*text-decoration*/
+p {
+    text-decoration: underline;
+}
+
